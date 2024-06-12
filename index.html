@@ -3,13 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
+    <title>My Simple Blog</title>
+    <style>body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
 </head>
 <body>
-    <div>
-        <h1>Welcome to Our Website!</h1>
-        <p>Thank you for visiting. We're thrilled to have you here.</p>
-        <p>Explore our content, products, and services to discover all that we have to offer.</p>
-    </div>
+    <header>
+        <h1>My Simple Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>First Blog Post</h2>
+            <p>This is the content of my first blog post. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#">Read more</a>
+        </article>
+        <article>
+            <h2>Second Blog Post</h2>
+            <p>This is the content of my second blog post. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#">Read more</a>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Simple Blog</p>
+    </footer>
 </body>
 </html>
